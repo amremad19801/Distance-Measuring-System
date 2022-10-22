@@ -6,9 +6,12 @@
   <h2>Project Specifications</h2>
     <p>
      <br>The microcontroller needs to transmit at least 10 us trigger pulse to the HC-SR04 ultrasonic sensor Trig pin.</br>
-     <br>After getting a trigger pulse, the HC-SR04 ultrasonic sensor automatically sends eight 40 KHz sound waves and the microcontroller waits for rising edge output          at the Echo pin.</br>
-     <br>When the rising edge capture occurs at the Echo pin which is connected to an input of the microcontroller, the timer of the microcontroller starts and again            waits for a falling edge on the Echo pin.</br>
-     <br>As soon as the falling edge is captured at the Echo pin, the microcontroller reads the count of the timer. This time count is used to calculate the distance            to an object.></br>
+     <br>After getting a trigger pulse, the HC-SR04 ultrasonic sensor automatically sends eight 40 KHz sound waves and the microcontroller waits for rising edge output          at the Echo pin.
+     </br>
+     <br>When the rising edge capture occurs at the Echo pin which is connected to an input of the microcontroller, the timer of the microcontroller starts and again            waits for a falling edge on the Echo pin.
+     </br>
+     <br>As soon as the falling edge is captured at the Echo pin, the microcontroller reads the count of the timer. This time count is used to calculate the distance            to an object.
+     </br>
      <br>The LCD displays the distance value continuously.</br>
      <br>The project is designed and implemented based on the layered architecture model.</br>
     </p>
